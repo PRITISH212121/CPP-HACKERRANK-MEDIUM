@@ -20,7 +20,7 @@ int superDigit(string n, int k) {
         return stoi(n);
     }
     long long sum=0;
-    for (long long i=0; i<k; i++) {
+    for (long long i=0; i<n.size(); i++) {
          sum=sum+((n[i])-48);
     }
     if(t<1){
